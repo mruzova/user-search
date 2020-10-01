@@ -1,0 +1,15 @@
+img {
+  height: 130px;
+}
+li {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+ul {
+  margin-top: 40px;
+}
+p {
+  margin-left: 30px;
+  font-size: 35px;
+}

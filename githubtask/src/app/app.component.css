@@ -1,0 +1,10 @@
+.divsearch form {
+  display: flex;
+  justify-content: space-between;
+}
+.cont {
+  margin-top: 50px;
+}
+.divsearch input {
+  width: 90%;
+}

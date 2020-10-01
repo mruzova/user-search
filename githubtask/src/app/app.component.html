@@ -1,0 +1,19 @@
+<div class="container cont">
+  <div class="col-lg-12 divsearch">
+    <form  (ngSubmit)="onSearchUsers()"
+            [formGroup]="searchForm">
+    <input type="text" #search
+           class="form-control"
+           id="search"
+          formControlName="search"
+           placeholder="start typing the username...">
+           
+    <button class="btn btn-primary"
+            type="submit"    
+             >search</button>
+    </form>
+
+  </div>
+  <app-users-list [users]="users"></app-users-list>
+  <p *ngIf="error">{{error}}</p>
+</div>
